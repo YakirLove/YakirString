@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ED62741179AF0D595777034 /* libPods-YakirString.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F129DD314F8E87651DBAA5FD /* libPods-YakirString.a */; };
 		34A754B31DD1AB97005D776B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754B21DD1AB97005D776B /* main.m */; };
 		34A754B61DD1AB97005D776B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754B51DD1AB97005D776B /* AppDelegate.m */; };
 		34A754B91DD1AB97005D776B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754B81DD1AB97005D776B /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		34A754C11DD1AB97005D776B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A754BF1DD1AB97005D776B /* LaunchScreen.storyboard */; };
 		34A754CC1DD1AB97005D776B /* YakirStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754CB1DD1AB97005D776B /* YakirStringTests.m */; };
 		34A754D71DD1AB97005D776B /* YakirStringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754D61DD1AB97005D776B /* YakirStringUITests.m */; };
+		34A754F31DD1AD1B005D776B /* NSData+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754E71DD1AD1B005D776B /* NSData+Category.m */; };
+		34A754F51DD1AD1B005D776B /* NDJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754ED1DD1AD1B005D776B /* NDJson.m */; };
+		34A754F61DD1AD1B005D776B /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A754F01DD1AD1B005D776B /* NSString+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,16 @@
 		34A754D21DD1AB97005D776B /* YakirStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YakirStringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A754D61DD1AB97005D776B /* YakirStringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YakirStringUITests.m; sourceTree = "<group>"; };
 		34A754D81DD1AB97005D776B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A754E61DD1AD1B005D776B /* NSData+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Category.h"; sourceTree = "<group>"; };
+		34A754E71DD1AD1B005D776B /* NSData+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Category.m"; sourceTree = "<group>"; };
+		34A754EC1DD1AD1B005D776B /* NDJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDJson.h; sourceTree = "<group>"; };
+		34A754ED1DD1AD1B005D776B /* NDJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDJson.m; sourceTree = "<group>"; };
+		34A754EE1DD1AD1B005D776B /* NDString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDString.h; sourceTree = "<group>"; };
+		34A754EF1DD1AD1B005D776B /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		34A754F01DD1AD1B005D776B /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		6AA7062F625A0E840FCAE16E /* Pods-YakirString.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YakirString.release.xcconfig"; path = "Pods/Target Support Files/Pods-YakirString/Pods-YakirString.release.xcconfig"; sourceTree = "<group>"; };
+		7162E4C359E09ADFE5E0A5E3 /* Pods-YakirString.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YakirString.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YakirString/Pods-YakirString.debug.xcconfig"; sourceTree = "<group>"; };
+		F129DD314F8E87651DBAA5FD /* libPods-YakirString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YakirString.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED62741179AF0D595777034 /* libPods-YakirString.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5A44FD332ECB62621B6139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7162E4C359E09ADFE5E0A5E3 /* Pods-YakirString.debug.xcconfig */,
+				6AA7062F625A0E840FCAE16E /* Pods-YakirString.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34A754A51DD1AB97005D776B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +109,8 @@
 				34A754CA1DD1AB97005D776B /* YakirStringTests */,
 				34A754D51DD1AB97005D776B /* YakirStringUITests */,
 				34A754AF1DD1AB97005D776B /* Products */,
+				1B5A44FD332ECB62621B6139 /* Pods */,
+				7336AAF0B774CE96974224C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,7 @@
 		34A754B01DD1AB97005D776B /* YakirString */ = {
 			isa = PBXGroup;
 			children = (
+				34A754E41DD1AD1B005D776B /* lib */,
 				34A754B41DD1AB97005D776B /* AppDelegate.h */,
 				34A754B51DD1AB97005D776B /* AppDelegate.m */,
 				34A754B71DD1AB97005D776B /* ViewController.h */,
@@ -140,6 +167,44 @@
 			path = YakirStringUITests;
 			sourceTree = "<group>";
 		};
+		34A754E41DD1AD1B005D776B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				34A754E51DD1AD1B005D776B /* NSData */,
+				34A754E81DD1AD1B005D776B /* NSString */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		34A754E51DD1AD1B005D776B /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				34A754E61DD1AD1B005D776B /* NSData+Category.h */,
+				34A754E71DD1AD1B005D776B /* NSData+Category.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		34A754E81DD1AD1B005D776B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				34A754EC1DD1AD1B005D776B /* NDJson.h */,
+				34A754ED1DD1AD1B005D776B /* NDJson.m */,
+				34A754EE1DD1AD1B005D776B /* NDString.h */,
+				34A754EF1DD1AD1B005D776B /* NSString+Category.h */,
+				34A754F01DD1AD1B005D776B /* NSString+Category.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		7336AAF0B774CE96974224C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F129DD314F8E87651DBAA5FD /* libPods-YakirString.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34A754DB1DD1AB97005D776B /* Build configuration list for PBXNativeTarget "YakirString" */;
 			buildPhases = (
+				FB6D7F2B638D238C77A60040 /* Check Pods Manifest.lock */,
 				34A754AA1DD1AB97005D776B /* Sources */,
 				34A754AB1DD1AB97005D776B /* Frameworks */,
 				34A754AC1DD1AB97005D776B /* Resources */,
+				2255256D6D9603DC460FA9FC /* Embed Pods Frameworks */,
+				A48235CC509F336B4D41AE02 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +339,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2255256D6D9603DC460FA9FC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YakirString/Pods-YakirString-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A48235CC509F336B4D41AE02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YakirString/Pods-YakirString-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6D7F2B638D238C77A60040 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34A754AA1DD1AB97005D776B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A754F61DD1AD1B005D776B /* NSString+Category.m in Sources */,
+				34A754F31DD1AD1B005D776B /* NSData+Category.m in Sources */,
 				34A754B91DD1AB97005D776B /* ViewController.m in Sources */,
+				34A754F51DD1AD1B005D776B /* NDJson.m in Sources */,
 				34A754B61DD1AB97005D776B /* AppDelegate.m in Sources */,
 				34A754B31DD1AB97005D776B /* main.m in Sources */,
 			);
@@ -425,11 +544,18 @@
 		};
 		34A754DC1DD1AB97005D776B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7162E4C359E09ADFE5E0A5E3 /* Pods-YakirString.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NV5TP9U7U;
 				INFOPLIST_FILE = YakirString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"GTMBase64\"",
+					"-licucore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.YakirString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,11 +563,18 @@
 		};
 		34A754DD1DD1AB97005D776B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA7062F625A0E840FCAE16E /* Pods-YakirString.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NV5TP9U7U;
 				INFOPLIST_FILE = YakirString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"GTMBase64\"",
+					"-licucore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.YakirString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -516,6 +649,7 @@
 				34A754DD1DD1AB97005D776B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34A754DE1DD1AB97005D776B /* Build configuration list for PBXNativeTarget "YakirStringTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +658,7 @@
 				34A754E01DD1AB97005D776B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34A754E11DD1AB97005D776B /* Build configuration list for PBXNativeTarget "YakirStringUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +667,7 @@
 				34A754E31DD1AB97005D776B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
