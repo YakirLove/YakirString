@@ -11,7 +11,7 @@ DESC
   s.license      = "MIT"
   s.author             = { "YakirLove" => "282335315@qq.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/YakirLove/Yakir_String.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/YakirLove/YakirString.git", :tag => "0.0.2" }
   s.source_files  = "YakirString", "lib/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
